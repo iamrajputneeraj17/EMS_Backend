@@ -17,7 +17,7 @@ public class JuitController {
     @Autowired
     private VivoService service;
 
-    @
+//    @
 
     @PostMapping("/create")
     ResponseEntity<VivoEntity> createMobile(@RequestBody VivoEntity vivoEntity)
