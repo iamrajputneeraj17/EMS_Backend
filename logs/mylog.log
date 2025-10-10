@@ -1,0 +1,179 @@
+2025-09-29T11:03:02.647+05:30  INFO 25232 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Starting EmsBackendApplication using Java 17 with PID 25232 (C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication\target\classes started by Neeraj Kumar in C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication)
+2025-09-29T11:03:02.658+05:30  INFO 25232 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T11:03:03.731+05:30  INFO 25232 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T11:03:03.842+05:30  INFO 25232 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2025-09-29T11:03:04.492+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-29T11:03:04.510+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T11:03:04.510+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-29T11:03:04.622+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T11:03:04.622+05:30  INFO 25232 --- [EmsBackendApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1880 ms
+2025-09-29T11:03:04.939+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T11:03:05.007+05:30  INFO 25232 --- [EmsBackendApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-29T11:03:05.044+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T11:03:05.343+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T11:03:05.392+05:30  INFO 25232 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T11:03:05.611+05:30  INFO 25232 --- [EmsBackendApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27bb4dc5
+2025-09-29T11:03:05.611+05:30  INFO 25232 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T11:03:05.698+05:30  INFO 25232 --- [EmsBackendApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T11:03:06.925+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T11:03:06.988+05:30  INFO 25232 --- [EmsBackendApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T11:03:07.491+05:30  WARN 25232 --- [EmsBackendApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-29T11:03:08.029+05:30  INFO 25232 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-29T11:03:08.052+05:30  INFO 25232 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Started EmsBackendApplication in 6.129 seconds (process running for 6.638)
+2025-09-29T11:06:40.398+05:30  INFO 25232 --- [EmsBackendApplication] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T11:06:40.589+05:30  INFO 25232 --- [EmsBackendApplication] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T11:06:40.589+05:30  INFO 25232 --- [EmsBackendApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T11:06:40.589+05:30  INFO 25232 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T11:06:40.613+05:30  INFO 25232 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T19:17:27.909+05:30  INFO 21832 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Starting EmsBackendApplication using Java 17 with PID 21832 (C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication\target\classes started by Neeraj Kumar in C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication)
+2025-09-29T19:17:27.915+05:30  INFO 21832 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T19:17:29.559+05:30  INFO 21832 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T19:17:29.729+05:30  INFO 21832 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 2 JPA repository interfaces.
+2025-09-29T19:17:30.827+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-29T19:17:30.856+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T19:17:30.857+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-29T19:17:31.183+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T19:17:31.185+05:30  INFO 21832 --- [EmsBackendApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3158 ms
+2025-09-29T19:17:31.645+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T19:17:31.819+05:30  INFO 21832 --- [EmsBackendApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-29T19:17:31.897+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T19:17:32.884+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T19:17:32.971+05:30  INFO 21832 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T19:17:33.447+05:30  INFO 21832 --- [EmsBackendApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ef8e623
+2025-09-29T19:17:33.449+05:30  INFO 21832 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T19:17:33.657+05:30  INFO 21832 --- [EmsBackendApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T19:17:35.560+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T19:17:35.797+05:30  INFO 21832 --- [EmsBackendApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:17:36.627+05:30  WARN 21832 --- [EmsBackendApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-29T19:17:37.466+05:30  INFO 21832 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-29T19:17:37.487+05:30  INFO 21832 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Started EmsBackendApplication in 10.809 seconds (process running for 11.805)
+2025-09-29T19:18:17.346+05:30  INFO 21832 --- [EmsBackendApplication] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T19:18:17.920+05:30  INFO 21832 --- [EmsBackendApplication] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T19:18:17.924+05:30  INFO 21832 --- [EmsBackendApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:18:17.935+05:30  INFO 21832 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T19:18:17.946+05:30  INFO 21832 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T19:18:24.788+05:30  INFO 22972 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Starting EmsBackendApplication using Java 17 with PID 22972 (C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication\target\classes started by Neeraj Kumar in C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication)
+2025-09-29T19:18:24.796+05:30  INFO 22972 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T19:18:26.148+05:30  INFO 22972 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T19:18:26.330+05:30  INFO 22972 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 2 JPA repository interfaces.
+2025-09-29T19:18:27.485+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-29T19:18:27.514+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T19:18:27.514+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-29T19:18:27.663+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T19:18:27.663+05:30  INFO 22972 --- [EmsBackendApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2740 ms
+2025-09-29T19:18:28.094+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T19:18:28.196+05:30  INFO 22972 --- [EmsBackendApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-29T19:18:28.272+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T19:18:28.902+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T19:18:28.977+05:30  INFO 22972 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T19:18:29.310+05:30  INFO 22972 --- [EmsBackendApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464ede1f
+2025-09-29T19:18:29.313+05:30  INFO 22972 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T19:18:29.499+05:30  INFO 22972 --- [EmsBackendApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T19:18:31.190+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T19:18:31.295+05:30  INFO 22972 --- [EmsBackendApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:18:32.004+05:30  WARN 22972 --- [EmsBackendApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-29T19:18:32.739+05:30  INFO 22972 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-29T19:18:32.758+05:30  INFO 22972 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Started EmsBackendApplication in 9.047 seconds (process running for 9.865)
+2025-09-29T19:21:10.733+05:30  INFO 22972 --- [EmsBackendApplication] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T19:21:11.067+05:30  INFO 22972 --- [EmsBackendApplication] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T19:21:11.075+05:30  INFO 22972 --- [EmsBackendApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:21:11.077+05:30  INFO 22972 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T19:21:11.085+05:30  INFO 22972 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T19:21:18.347+05:30  INFO 25788 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Starting EmsBackendApplication using Java 17 with PID 25788 (C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication\target\classes started by Neeraj Kumar in C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication)
+2025-09-29T19:21:18.353+05:30  INFO 25788 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T19:21:19.829+05:30  INFO 25788 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T19:21:19.992+05:30  INFO 25788 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+2025-09-29T19:21:21.019+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-29T19:21:21.039+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T19:21:21.039+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-29T19:21:21.284+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T19:21:21.287+05:30  INFO 25788 --- [EmsBackendApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2811 ms
+2025-09-29T19:21:21.724+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T19:21:21.833+05:30  INFO 25788 --- [EmsBackendApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-29T19:21:21.900+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T19:21:22.473+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T19:21:22.532+05:30  INFO 25788 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T19:21:22.911+05:30  INFO 25788 --- [EmsBackendApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f61e002
+2025-09-29T19:21:22.914+05:30  INFO 25788 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T19:21:23.036+05:30  INFO 25788 --- [EmsBackendApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T19:21:24.591+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T19:21:24.718+05:30  INFO 25788 --- [EmsBackendApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:21:25.494+05:30  WARN 25788 --- [EmsBackendApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-29T19:21:26.171+05:30  INFO 25788 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-29T19:21:26.187+05:30  INFO 25788 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Started EmsBackendApplication in 9.061 seconds (process running for 9.872)
+2025-09-29T19:25:06.655+05:30  INFO 25788 --- [EmsBackendApplication] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T19:25:06.890+05:30  INFO 25788 --- [EmsBackendApplication] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T19:25:06.962+05:30  INFO 25788 --- [EmsBackendApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:25:07.077+05:30  INFO 25788 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T19:25:07.125+05:30  INFO 25788 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-29T19:25:15.556+05:30  INFO 37868 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Starting EmsBackendApplication using Java 17 with PID 37868 (C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication\target\classes started by Neeraj Kumar in C:\Users\Neeraj Kumar\Downloads\EmsBackendApplication\EmsBackendApplication)
+2025-09-29T19:25:15.566+05:30  INFO 37868 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : No active profile set, falling back to 1 default profile: "default"
+2025-09-29T19:25:17.196+05:30  INFO 37868 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-29T19:25:17.349+05:30  INFO 37868 --- [EmsBackendApplication] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 2 JPA repository interfaces.
+2025-09-29T19:25:18.577+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-29T19:25:18.597+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-29T19:25:18.597+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-09-29T19:25:18.742+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-29T19:25:18.742+05:30  INFO 37868 --- [EmsBackendApplication] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3052 ms
+2025-09-29T19:25:19.141+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-29T19:25:19.439+05:30  INFO 37868 --- [EmsBackendApplication] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-09-29T19:25:19.524+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-29T19:25:20.238+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-29T19:25:20.332+05:30  INFO 37868 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-29T19:25:20.834+05:30  INFO 37868 --- [EmsBackendApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fcaea93
+2025-09-29T19:25:20.837+05:30  INFO 37868 --- [EmsBackendApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-29T19:25:21.042+05:30  INFO 37868 --- [EmsBackendApplication] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-29T19:25:23.134+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-29T19:25:23.318+05:30  INFO 37868 --- [EmsBackendApplication] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:25:24.333+05:30  WARN 37868 --- [EmsBackendApplication] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-29T19:25:25.259+05:30  INFO 37868 --- [EmsBackendApplication] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-29T19:25:25.284+05:30  INFO 37868 --- [EmsBackendApplication] [main] c.e.E.EmsBackendApplication              : Started EmsBackendApplication in 10.895 seconds (process running for 11.838)
+2025-09-29T19:25:27.310+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:27.310435
+2025-09-29T19:25:29.326+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:29.325077600
+2025-09-29T19:25:31.331+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:31.331708900
+2025-09-29T19:25:33.342+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:33.342189900
+2025-09-29T19:25:35.344+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:35.344365400
+2025-09-29T19:25:37.353+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:37.353331900
+2025-09-29T19:25:39.362+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:39.362538900
+2025-09-29T19:25:41.371+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:41.371546100
+2025-09-29T19:25:43.379+05:30  INFO 37868 --- [EmsBackendApplication] [scheduling-1] com.example.EmsBackendApplication.Task   : Task 1: Current Time2025-09-29T19:25:43.379384400
+2025-09-29T19:25:43.719+05:30  INFO 37868 --- [EmsBackendApplication] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-29T19:25:44.137+05:30  INFO 37868 --- [EmsBackendApplication] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-29T19:25:44.143+05:30  INFO 37868 --- [EmsBackendApplication] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-29T19:25:44.151+05:30  INFO 37868 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-29T19:25:44.161+05:30  INFO 37868 --- [EmsBackendApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
