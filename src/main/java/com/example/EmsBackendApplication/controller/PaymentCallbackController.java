@@ -3,7 +3,11 @@ package com.example.EmsBackendApplication.controller;
 import com.example.EmsBackendApplication.DTO.PaymentCallbackDTO;
 import com.example.EmsBackendApplication.DTO.PaymentCallbackSearchDTO;
 import com.example.EmsBackendApplication.service.PaymentCallbackService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +24,9 @@ public class PaymentCallbackController {
 
     @Autowired
     private PaymentCallbackService callbackService;
+
+    @Autowired
+    private ObjectMapper mapper;
 
 
 
@@ -42,5 +49,13 @@ public class PaymentCallbackController {
     public ResponseEntity<PaymentCallbackDTO> searchCallback(@RequestBody PaymentCallbackSearchDTO dto) {
         PaymentCallbackDTO result = callbackService.searchCallback(dto);
         return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/jsonProcess")
+    public ResponseEntity<String> jsonProcess(@RequestBody JsonNode node) throws JsonProcessingException {
+        String username = node.path("user").path("userName").asText();
+        int age = node.path("user").path("age").asInt();
+        System.out.println(mapper.writeValueAsString(node));
+        return ResponseEntity.ok("UserName:" + username + "Age: "+ age);
     }
 }
