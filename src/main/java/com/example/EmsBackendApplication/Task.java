@@ -14,5 +14,7 @@ public class Task {
     public void task()
     {
         log.info("Task 1: Current Time"+ LocalDateTime.now());
+        System.out.println("Hello");
     }
+
 }
