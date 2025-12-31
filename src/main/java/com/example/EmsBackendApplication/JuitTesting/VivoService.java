@@ -21,6 +21,7 @@ public class VivoService {
         return vivoRepository.save(entity);
     }
 
+
     public Optional<VivoEntity> findById(Long id)
     {
         VivoEntity vivoEntity = redisService.get(id.toString(), VivoEntity.class);

@@ -8,6 +8,8 @@ import com.example.EmsBackendApplication.exception.ResourceNotFoundException;
 import com.example.EmsBackendApplication.mapper.EmployeeMapper;
 import com.example.EmsBackendApplication.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.nio.file.ReadOnlyFileSystemException;
@@ -29,6 +31,7 @@ public class EmployeeService {
     }
 
 
+    @Cacheable(value = "empById", key = "#empId")
     public EmployeeDTO empById(Long empId)
     {
         Employee foundEmp = employeeRepository.findById(empId).
@@ -44,6 +47,7 @@ public class EmployeeService {
                 EmployeeMapper.mapToEmployeeDTO(employee)).collect(Collectors.toList());
     }
 
+    @CachePut(value = "updateEmployee", key = "#result.id")
     public EmployeeDTO updateEmployee(Long empId, EmployeeDTO employeeDTO)
     {
         Employee foundEmp = employeeRepository.findById(empId).
